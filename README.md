@@ -1,7 +1,8 @@
 # Experiment-19
 
-## Aim: -To explore, understand, and implement advanced, real-world data visualization techniques using Python libraries such as Plotly, Matplotlib, and SciPy to extract meaningful insights from complex datasets.
-## Theory: -
+## Aim: To explore, understand, and implement advanced, real-world data visualization techniques using Python libraries such as Plotly, Matplotlib, and SciPy to extract meaningful insights from complex datasets.
+
+## Theory: 
 Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data. This experiment focuses on five advanced visualization techniques
 Treemap: A visualization that displays hierarchical data as a set of nested rectangles. Each group is represented by a rectangle, which area is proportional to its value. In this experiment, it is used to visualize departmental budgets (HR, IT, Sales, Marketing), making it easy to compare resource allocation at a glance.
 Dendrogram: A tree-like diagram that records the sequences of merges or splits in hierarchical clustering. It illustrates how data points are grouped based on similarity or distance. We utilized scipy.cluster.hierarchy to calculate the Euclidean distances and group sample data points using Ward's method.
